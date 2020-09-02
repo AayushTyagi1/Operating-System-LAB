@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<unistd.h>
+
 int main()
 {
-	int pid = fork();
+	int pid;
+	pid=fork();
 	if(pid<0)
-	printf("Child process creation unsuccessful!\n");
+	printf("ERROR");
 	else if(pid == 0)
-	printf("Child process created\n");
+	printf("In Children\n");
 	else
-	printf("It is the parent process\n");
+	printf("IN parent\n");
 	return 0;
 }
