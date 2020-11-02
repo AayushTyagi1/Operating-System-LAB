@@ -19,10 +19,6 @@ e) exit() : [here](https://github.com/AayushTyagi1/Operating-System-LAB/blob/mas
 
 [Program II](https://github.com/AayushTyagi1/Operating-System-LAB/blob/master/zombie.c). Write a program to demonstrate zombie process.
 
-[Program III](https://github.com/AayushTyagi1/Operating-System-LAB/blob/master/ch12.c). Write a program where a process creates two child processes (CH1 and CH2). Make sure that following should be the sequence of execution of all the created processes:
-
-First : CH1 should complete its execution.
-Second : Parent process completes its execution.
-Third: CH2 should complete its execution in the last.
+[Program III](https://github.com/AayushTyagi1/Operating-System-LAB/blob/master/ch12.c). Write a program to create child process which will list all the files present in your system. Make sure that parent process waits until child has not completed its execution. (use wait(), exit()) What will happen if parent process dies before child process? Illustrate it by creating one more child of parent process.
 
 [Program IV](https://github.com/AayushTyagi1/Operating-System-LAB/blob/master/evenodd.c). Parent Process Computes the SUM OF EVEN and Child Process Computes the sum of ODD NUMBERS using fork
