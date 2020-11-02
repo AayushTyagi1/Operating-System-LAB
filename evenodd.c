@@ -15,8 +15,6 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<n;i++)
-	{
 		pid=fork();
 		wait(&status);
 		if(pid == 0)
@@ -34,6 +32,5 @@ int main()
 			if(a[i]%2!=0)
 			sum+=a[i];
 			printf("SUM of ODD nos = %d\n",sum);
-	}
 	}
 }
